@@ -14,7 +14,7 @@ const App = () => {
   // State to track acceptance and rejection
   const [accepted, setAccepted] = useState(false);
   const [rejected, setRejected] = useState(false);
-  const [noButtonText, setNoButtonText] = useState("Нет");
+  const [noButtonText, setNoButtonText] = useState("Nu");
   const [lastRejectedIndex, setLastRejectedIndex] = useState(-1);
 
   // Handler for accepting the proposal
@@ -27,10 +27,10 @@ const App = () => {
     setRejected(true);
     // Array of rejection messages
     const rejectionTexts = [
-      "Ты уверена?",
-      "Может быть, попробовать еще раз?",
-      "Подумай еще раз!",
-      "Да ладно :(",
+      "Ești sigură?",
+      "Poate ar trebui să încercăm din nou?",
+      "Gândește-te din nou!",
+      "Haide :(",
     ];
     // Randomly select a rejection message
     let randomIndex;
