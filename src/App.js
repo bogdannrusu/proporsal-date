@@ -28,7 +28,7 @@ const App = () => {
     // Array of rejection messages
     const rejectionTexts = [
       "Ești sigură?",
-      "Poate ar trebui să încercăm din nou?",
+      "Poate ar trebui să încercăm totusi?",
       "Gândește-te din nou!",
       "Haide :(",
     ];
